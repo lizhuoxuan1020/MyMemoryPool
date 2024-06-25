@@ -1,0 +1,19 @@
+# 忽略所有 .log 文件
+*.log
+
+# 忽略所有 .class 文件
+*.class
+
+# 忽略 temp 目录及其内容
+temp/
+
+# 忽略文件名为 debug 的特定文件
+debug
+
+# 忽略所有 .txt 文件但不包括 README.txt
+*.txt
+!README.txt
+
+/.vs/
+/Debug
+*.sln
