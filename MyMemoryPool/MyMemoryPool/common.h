@@ -229,19 +229,6 @@ namespace memory_pool {
 
 		SpanPtr prev_ = nullptr;
 		SpanPtr next_ = nullptr;
-
-	public:
-		void InitializeObjList(ObjPtr start) {
-			list_ = start;
-		}
-
-		size_t AllocateObjList(size_t n, ObjPtr& start, ObjPtr& end) {
-
-		}
-
-		void ReclaimObjList(ObjPtr obj) {
-
-		}
 	};
 
 	class SpanList
