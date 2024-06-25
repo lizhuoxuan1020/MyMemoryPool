@@ -14,6 +14,6 @@ debug
 *.txt
 !README.txt
 
-/.vs/
+*/.vs/
 /Debug
 *.sln
